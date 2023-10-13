@@ -1,0 +1,7 @@
+.salsaypicante {
+    
+    display: flexbox;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
