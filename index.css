@@ -1,7 +1,7 @@
 .salsaypicante {
-    
-    display: flexbox;
-    flex-wrap: wrap;
-    flex-direction: column;
+    display: block;
 
+}
+.entraminuto {
+    display: block;
 }
