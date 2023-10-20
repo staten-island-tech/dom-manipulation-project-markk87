@@ -9,8 +9,7 @@ const DOMSelectors = {
 
 function makeCard() {
     const card = {
-        primeronombre: firstName,
-        primeroemail: emailInput,
+       
     }
 }
 
