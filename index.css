@@ -5,8 +5,7 @@ body {
 
 
 .card{
-    height: 19%;
-    width: 19%;
+    width: 30%;
     background-color: hotpink;
     display: flex;
     position: relative;
