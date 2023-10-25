@@ -8,13 +8,15 @@ const DOMSelectors = {
 };
 
 
-function createFart() {
-    DOMSelectors.gallery.insertAdjacentHTML('afterend', `<div class=card><h2> ${DOMSelectors.firstName.value} : ${DOMSelectors.emailInput.value}</h2></div>`)
-}
+
 DOMSelectors.form.addEventListener('submit', function(e){
     e.preventDefault();
     console.log('fart')
+    function createFart() {
+        DOMSelectors.gallery.insertAdjacentHTML('beforeend', `<div class=card><h2> ${DOMSelectors.firstName.value} : ${DOMSelectors.emailInput.value}</h2></div>`)
+    }
     createFart();
+    console.log(DOMSelectors.gallery)
 })
 
 

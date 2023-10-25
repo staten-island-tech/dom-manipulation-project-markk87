@@ -1,6 +1,28 @@
+body {
+    background-color: red;
+    font-size: 1.3rem;
+}
+
+
+.card{
+    height: 19%;
+    width: 19%;
+    background-color: hotpink;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    border: 2px solid black;
+    margin: 5px;
+    align-items: center;
+}
+
+
 .gallery {
-    width: 500px;
-    height: 800px;
-    display: flexbox;
+    display: flex;
+    flex-wrap: wrap;
+
+
+    
+
 
 }
