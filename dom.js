@@ -5,17 +5,54 @@ const DOMSelectors = {
     emailInput: document.querySelector(".electro-mail"),
 };
 
-function createCard(firstName, emailInput) {
-    return { firstName, emailInput};
+const HTMLSelectors = {
+    
+}
+
+function create(){
+    const Noah = {
+        firstName: DOMSelectors.firstName.value,
+        emailInput: DOMSelectors.emailInput.value,
+    };
+
+    inject(Noah);
+    clear();
+    remove();
+};
+
+function inject(Noah) {
+    HTMLSelectors.
+}
+
+
+
+const HTMLSelectors = {
+    
+}
+
+function createObject(name, email) {
+    return {
+        name,
+        email,
+    };
+}
+
+function addData() {
+    const name = DOMSelectors.nameInput.value;
+    const email = DOMSelectors.emailInput.value;
 }
 
 
 
 
+function createCard(){
+    const newCard = document.createElement("div");
+    newCard.appendChild();
+}
+
 DOMSelectors.form.addEventListener("submit", function(event){
     event.preventDefault();
-    console.log(DOMSelectors.firstName.value, DOMSelectors.emailInput.value);
-    DOMSelectors.h2s.forEach((h2) => h2.textContent = DOMSelectors.firstName.value);
+    
 });
 
 
