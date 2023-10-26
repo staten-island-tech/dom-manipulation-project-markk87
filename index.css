@@ -15,6 +15,10 @@ body {
     align-items: center;
 }
 
+.imginput {
+    width: 75%;
+}
+
 
 .gallery {
     display: flex;
