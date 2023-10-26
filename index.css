@@ -1,12 +1,12 @@
 body {
-    background-color: red;
+    background-color: gray;
     font-size: 1.3rem;
 }
 
 
 .card{
     width: 30%;
-    background-color: hotpink;
+    background-color: darkred;
     display: flex;
     position: relative;
     flex-direction: column;
