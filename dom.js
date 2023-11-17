@@ -23,7 +23,7 @@ DOMSelectors.form.addEventListener('submit', function(e) {
     function createFart() {
         DOMSelectors.gallery.insertAdjacentHTML('beforeend', `<div class=card><button class=remove>Clear</button><h2> ${DOMSelectors.firstName.value} : ${DOMSelectors.emailInput.value} :  </h2><img class="imginput" src=${DOMSelectors.attributeInput.value}/></div>`)
     }
-    function removeFart(){
+    function removeFart() {
         const urmom = document.querySelectorAll(".remove");
         urmom.forEach((el) => {
             el.addEventListener('click', function(f){
